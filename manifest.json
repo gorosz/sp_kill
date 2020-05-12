@@ -1,0 +1,19 @@
+{
+  "name": "Tab Inspector",
+  "description": "Utility for working with the extension tabs api",
+  "version": "0.3",
+  "permissions": ["tabs", "storage"],
+  "icons": {
+    "16": "icon-3.png",
+    "48": "icon-1.png",
+    "128": "icon-0.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "show tab inspector"
+  },
+  "manifest_version": 2
+}
